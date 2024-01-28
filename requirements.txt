@@ -1,0 +1,4 @@
+wikipedia-api
+numpy
+transformers
+scikit-learn
