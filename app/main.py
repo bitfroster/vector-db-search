@@ -144,7 +144,7 @@ def main(user_query, download):
 
     collection_name = config['milvus']['collection_name']
     # Dimension of BERT-based embeddings
-    dimension = config.get('model_dimension', config['model_dimension'])
+    dimension = config.get('model_dimension', 768)
 
     connect_and_create_collection(collection_name, dimension)
 
