@@ -30,10 +30,17 @@ Afterwards you need to go to the ```app``` container and execute the commands:
 ```
 docker-compose exec app bash
 ```
-``` python main.py -d ``` or ```python main.py --download```
+and then run:
+
+```python main.py --download```
 
 Afterwards you can use search query in cli:
-```python main.py -q 'Some text to search'``` or ```python main.py --query 'Some text to search'```
+
+```python main.py -q 'Some text to search'``` 
+
+or 
+
+```python main.py --query 'Some text to search'```
 
 On the first run the script downloads the models, it could take some time.
 
